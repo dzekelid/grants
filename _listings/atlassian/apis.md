@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Grants
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -283,6 +283,66 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionscheme-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionscheme-get-openapi.md
+- name: Jira Cloud REST API - Get permission scheme grant
+  x-api-slug: api2permissionschemeschemeidpermissionpermissionid-get
+  description: Returns a permission grant. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** Permission to log in to Jira.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermissionpermissionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermissionpermissionid-get-openapi.md
+- name: Jira Cloud REST API - Get permission scheme grant
+  x-api-slug: api2permissionschemeschemeidpermissionpermissionid-get
+  description: Returns a permission grant. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** Permission to log in to Jira.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermissionpermissionid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermissionpermissionid-get-openapi.md
+- name: Jira Cloud REST API - Create permission grant
+  x-api-slug: api2permissionschemeschemeidpermission-post
+  description: Creates a new permission grant in the given permission scheme. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** _Administer Jira_ global permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermission-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermission-post-openapi.md
+- name: Jira Cloud REST API - Create permission grant
+  x-api-slug: api2permissionschemeschemeidpermission-post
+  description: Creates a new permission grant in the given permission scheme. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** _Administer Jira_ global permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermission-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/atlassian/api2permissionschemeschemeidpermission-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

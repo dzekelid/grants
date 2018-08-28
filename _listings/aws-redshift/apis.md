@@ -11,11 +11,66 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Grants
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Redshift API - Describe Snapshot Copy Grants
+  x-api-slug: actiondescribesnapshotcopygrants-get
+  description: |-
+    Returns a list of snapshot copy grants owned by the AWS account in the destination
+                region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-redshift/actiondescribesnapshotcopygrants-get-openapi.md
+- name: AWS Redshift API - Create Snapshot Copy Grant
+  x-api-slug: actioncreatesnapshotcopygrant-get
+  description: |-
+    Creates a snapshot copy grant that permits Amazon Redshift to use a customer master key
+                (CMK) from AWS Key Management Service (AWS KMS) to encrypt copied snapshots in a
+                destination region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-redshift/actioncreatesnapshotcopygrant-get-openapi.md
+- name: AWS Redshift API - Delete Snapshot Copy Grant
+  x-api-slug: actiondeletesnapshotcopygrant-get
+  description: Deletes the specified snapshot copy grant.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-redshift/actiondeletesnapshotcopygrant-get-openapi.md
+- name: AWS Redshift API - Describe Snapshot Copy Grants
+  x-api-slug: actiondescribesnapshotcopygrants-get
+  description: |-
+    Returns a list of snapshot copy grants owned by the AWS account in the destination
+                region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-redshift/actiondescribesnapshotcopygrants-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

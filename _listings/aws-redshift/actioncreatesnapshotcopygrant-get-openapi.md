@@ -1,9 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Redshift
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Snapshot Copy Grant
   version: 1.0.0
+  description: |-
+    Creates a snapshot copy grant that permits Amazon Redshift to use a customer master key
+                (CMK) from AWS Key Management Service (AWS KMS) to encrypt copied snapshots in a
+                destination region.
 schemes:
 - http
 produces:
@@ -76,19 +81,17 @@ paths:
           description: OK
       tags:
       - Snapshots
-  /?Action=DeleteSnapshotCopyGrant:
-    get:
-      summary: Delete Snapshot Copy Grant
-      description: Deletes the specified snapshot copy grant.
-      operationId: deleteSnapshotCopyGrant
-      x-api-path-slug: actiondeletesnapshotcopygrant-get
-      parameters:
-      - in: query
-        name: SnapshotCopyGrantName
-        description: The name of the snapshot copy grant to delete
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Snapshots
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

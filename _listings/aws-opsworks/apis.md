@@ -10,11 +10,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Grants
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS OpsWorks API - Grant Access
+  x-api-slug: actiongrantaccess-get
+  description: NoteThis action can be used only with Windows stacks.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: :///
+  tags: Amazon Web Services, Orchestration, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-opsworks/actiongrantaccess-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/grants/master/_listings/aws-opsworks/actiongrantaccess-get-openapi.md
 - name: AWS OpsWorks API - Grant Access
   x-api-slug: actiongrantaccess-get
   description: NoteThis action can be used only with Windows stacks.
